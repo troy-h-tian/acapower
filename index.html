@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>ACAPower</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="aca-header">
+  <div class="aca-header-inner">
+    <a class="aca-brand" href="#home" aria-label="ACAPower Home">
+      <img src="images/logo.png" alt="ACAPower logo" class="aca-logo" />
+    </a>
+
+    <button class="aca-menu-btn" id="navToggle" aria-expanded="false" aria-controls="acaDrawer" aria-label="Open menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    </div>
+  </header>
+
+  <!-- Slide-out drawer menu -->
+  <div class="aca-drawer" id="acaDrawer" hidden>
+    <div class="aca-drawer-panel" role="dialog" aria-modal="true" aria-label="Site menu">
+      <button class="aca-close" id="navClose" aria-label="Close menu">×</button>
+
+      <nav class="aca-drawer-nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#members">Members</a>
+        <a href="#media">Media</a>
+        <a href="#resources">Mutual Aid</a>
+        <a href="#newsletter">Newsletter</a>
+        <a href="#submissions">Submissions</a>
+      </nav>
+    </div>
+
+    <!-- click outside to close -->
+    <button class="aca-backdrop" id="navBackdrop" aria-label="Close menu"></button>
+  </div>
+
+
+  <main id="main">
+    <!-- HOME -->
+    <section class="section" data-route="home">
+      <div class="container">
+        <div class="hero">
+          <div>
+            <h1>Organizing for Asian American civic power.</h1>
+            <p class="lead">
+              ACAPower is an initiative within the Association of Chinese Americans focused on activism,
+              political education, and building long-term community engagement.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn primary" href="#submissions">Share a resource</a>
+              <a class="btn" href="#newsletter">Join the newsletter</a>
+            </div>
+
+            <div class="pillars">
+              <div class="pillar">
+                <h3>Education</h3>
+                <p>Break down policies, elections, and local issues with clarity and context.</p>
+              </div>
+              <div class="pillar">
+                <h3>Engagement</h3>
+                <p>Turn information into action through events, canvassing, and coalition work.</p>
+              </div>
+              <div class="pillar">
+                <h3>Mutual Aid</h3>
+                <p>Share resources and support systems that keep our communities safe.</p>
+              </div>
+              <div class="pillar">
+                <h3>Solidarity</h3>
+                <p>Build power alongside other communities through accountability and care.</p>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-card">
+            <h2 class="h4">Next steps</h2>
+            <ul class="checklist">
+              <li><a href="#about">Learn what we do</a></li>
+              <li><a href="#members">Meet the team</a></li>
+              <li><a href="#media">Watch our short-form content</a></li>
+              <li><a href="#resources">Browse mutual aid & resources</a></li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <p class="small muted">
+              Want this to look even closer to ACA’s site? Replace the brand mark with your logo,
+              and keep the layout simple + content-forward.
+            </p>
+          </aside>
+        </div>
+      </div>
+      <section class="socials-centered">
+        <h1>Check us out on our socials below!</h1>
+        <div class="socials-list">
+          <div class="social-row">
+            <span class="label">Instagram:</span>
+            <span class="value">@acaeducate</span>
+            <a href="https://www.instagram.com/acaeducate/" target="_blank" rel="noopener">HERE!</a>
+          </div>
+  
+          <div class="social-row">
+            <span class="label">Facebook:</span>
+            <span class="value">Association of Chinese Americans – ACA</span>
+            <a href="https://www.facebook.com/acabruins/" target="_blank" rel="noopener">HERE!</a>
+          </div>
+  
+          <div class="social-row">
+            <span class="label">YouTube:</span>
+            <span class="value">ACA Bruins</span>
+            <a href="https://www.youtube.com/user/acabruins" target="_blank" rel="noopener">HERE!</a>
+          </div>
+  
+          <div class="social-row">
+            <span class="label">TikTok:</span>
+            <span class="value">@acabruins</span>
+            <a href="https://www.tiktok.com/@acabruins" target="_blank" rel="noopener">HERE!</a>
+          </div>
+  
+          <div class="social-row">
+            <span class="label">Email:</span>
+            <span class="value">acabruins@gmail.com</span>
+            <a href="mailto:acabruins@gmail.com">HERE!</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" data-route="about" hidden>
+      <div class="container">
+        <div class="section-head">
+          <h2>About ACAPower</h2>
+          <p class="muted">Who we are, what we believe, and how we organize.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Mission</h3>
+            <p>
+              ACAPower strengthens Asian American political engagement through education,
+              direct action, and community care—especially on campus and in our local area.
+            </p>
+          </div>
+          <div class="card">
+            <h3>What we do</h3>
+            <ul class="bullets">
+              <li>Issue explainers & civic education</li>
+              <li>Voter engagement and turnout efforts</li>
+              <li>Workshops, panels, and coalition events</li>
+              <li>Mutual aid + resource sharing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Values</h3>
+          <div class="tags-row">
+            <span class="tag">Community-led</span>
+            <span class="tag">Anti-racist</span>
+            <span class="tag">Accessible</span>
+            <span class="tag">Accountable</span>
+            <span class="tag">Solidarity</span>
+          </div>
+          <p class="small muted">
+            Tip: Keep this page short and link to deeper docs elsewhere if needed.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBERS -->
+    <section class="section" data-route="members" hidden>
+      <div class="container">
+        <div class="section-head">
+          <h2>Members</h2>
+          <p class="muted">Organizers, leads, and contributors.</p>
+        </div>
+
+        <div class="toolbar">
+          <label class="field">
+            <span class="field-label">Search</span>
+            <input id="memberSearch" type="search" placeholder="Search members (name or role)"/>
+          </label>
+        </div>
+
+        <div id="membersGrid" class="cards-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- MEDIA -->
+    <section class="section" data-route="media" hidden>
+      <div class="container">
+        <div class="section-head">
+          <h2>Media</h2>
+          <p class="muted">Short-form content, explainers, and action guides.</p>
+        </div>
+
+        <div class="card">
+          <h3>Featured</h3>
+          <p class="small muted">
+            Embeds vary by platform. If an embed doesn’t load, we’ll show a link instead.
+          </p>
+        </div>
+
+        <div id="mediaGrid" class="media-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- RESOURCES -->
+    <section class="section" data-route="resources" hidden>
+      <div class="container">
+        <div class="section-head">
+          <h2>Mutual Aid & Resources</h2>
+          <p class="muted">A living list of support, education, and action resources.</p>
+        </div>
+
+        <div class="toolbar">
+          <label class="field">
+            <span class="field-label">Search</span>
+            <input id="resourceSearch" type="search" placeholder="Search resources (title, description)"/>
+          </label>
+
+          <label class="field">
+            <span class="field-label">Tag</span>
+            <select id="resourceTag">
+              <option value="all">All</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="resourcesList" class="list" aria-live="polite"></div>
+
+        <div class="card callout">
+          <h3>Add something</h3>
+          <p class="muted small">Have a resource to share? Drop it in submissions.</p>
+          <a class="btn" href="#submissions">Go to submissions</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="section" data-route="newsletter" hidden>
+      <div class="container">
+        <div class="section-head">
+          <h2>Newsletter</h2>
+          <p class="muted">Updates, events, and action items.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Subscribe</h3>
+            <form id="newsletterForm">
+              <label class="field">
+                <span class="field-label">Email</span>
+                <input name="email" type="email" required placeholder="you@school.edu"/>
+              </label>
+              <button class="btn primary" type="submit">Subscribe</button>
+              <p class="small muted">
+                This is a placeholder. Hook this up to Mailchimp/Substack later.
+              </p>
+              <p class="small" id="newsletterMsg" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <div class="card">
+            <h3>Archive</h3>
+            <div id="newsletterArchive" class="list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBMISSIONS -->
+    <section class="section" data-route="submissions" hidden>
+      <div class="container">
+        <div class="section-head">
+          <h2>Community Submissions</h2>
+          <p class="muted">Share resources, story ideas, event tips, or content suggestions.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Submit</h3>
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSceGbyZ5dWcgnfoWpmUZF6OI6Xpg-eJsvNwJszABWv554aX8w/viewform?embedded=true"
+              class="google-form-embed"
+              title="ACAPower Submissions"
+              loading="lazy"
+            ></iframe>
+          </div>
+
+          <div class="card">
+            <h3>Recent submissions (local preview)</h3>
+            <div id="submissionsFeed" class="list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p class="footer-text">are you following us on our socials?</p>
+        <div class="footer-social-icons">
+          <a href="https://www.instagram.com/acaeducate/" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+            <img src="images/instagram_icon.png" alt="Instagram" width="24" height="24">
+          </a>
+          <a href="https://www.facebook.com/acabruins/" target="_blank" rel="noopener" class="social-icon social-icon-fb" aria-label="Facebook">
+            <span>f</span>
+          </a>
+          <a href="https://www.youtube.com/user/acabruins" target="_blank" rel="noopener" class="social-icon" aria-label="YouTube">
+            <img src="images/youtube_icon.png" alt="YouTube" width="24" height="24">
+          </a>
+          <a href="https://www.tiktok.com/@acabruins" target="_blank" rel="noopener" class="social-icon social-icon-large" aria-label="TikTok">
+            <img src="images/tiktok_icon.png" alt="TikTok" width="24" height="24">
+          </a>
+          <a href="mailto:acabruins@gmail.com" class="social-icon" aria-label="Email">
+            <img src="images/email_icon.png" alt="Email" width="24" height="24">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
