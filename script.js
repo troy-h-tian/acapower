@@ -240,6 +240,21 @@ function renderResources() {
   }
 }
 
+function renderNewsletterArchive() {
+  const container = document.getElementById("newsletterArchive");
+  if (!container) return;
+
+  container.innerHTML = NEWSLETTER_ARCHIVE.map(item => `
+    <div class="list-item">
+      <h4>${item.title}</h4>
+      <p class="muted">${item.date}</p>
+      <a class="btn" href="${item.url}" target="_blank" rel="noopener">
+        Open
+      </a>
+    </div>
+  `).join("");
+}
+
 document.getElementById("resourceSearch")?.addEventListener("input", renderResources);
 document.getElementById("resourceTag")?.addEventListener("change", renderResources);
 
