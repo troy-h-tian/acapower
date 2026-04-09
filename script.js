@@ -81,16 +81,16 @@ const MEMBERS = [
 const MEDIA = [
   // Embeds vary per platform. You can replace with real embed URLs or set embedUrl=null for link-only.
   {
-    title: "Voter Registration: 30 seconds",
-    platform: "YouTube Shorts",
-    embedUrl: "https://www.youtube.com/embed/aqz-KE-bpKQ", // replace with a Shorts embed URL
-    linkUrl: "https://www.youtube.com/"
+    title: "ACAPower — Who We Are",
+    platform: "YouTube",
+    embedUrl: "https://www.youtube.com/embed/dOMTLEdHvEU",
+    linkUrl: "https://www.youtube.com/watch?v=dOMTLEdHvEU"
   },
   {
-    title: "Local Issue Explainer",
-    platform: "TikTok",
+    title: "ACAPower on Instagram",
+    platform: "Instagram",
     embedUrl: null,
-    linkUrl: "https://www.tiktok.com/"
+    linkUrl: "https://www.instagram.com/acabruins/reel/DUaBOTMARbt/"
   }
 ];
 

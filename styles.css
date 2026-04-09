@@ -328,6 +328,12 @@ form .btn {
   display: flex;
   flex-direction: column;
 }
+.grid-2 + .card{
+  margin-top: 1.5rem;
+}
+.card + .media-grid{
+  margin-top: 1rem;
+}
 .card.callout{
   margin-top: 1rem;
   display:flex;
