@@ -73,9 +73,9 @@ if (drawer) {
 
 // ---------- Data (edit these first) ----------
 const MEMBERS = [
-  { name: "Your Name", role: "Co-Lead", pronouns: "she/her", bio: "Organizing around civic education and campus engagement." },
-  { name: "Member Two", role: "Media", pronouns: "they/them", bio: "Short-form explainers and content strategy." },
-  { name: "Member Three", role: "Mutual Aid", pronouns: "he/him", bio: "Resource curation and community support." }
+  { name: "Justine Li-Wu", role: "Co-Lead", pronouns: "she/her", bio: "2025-26 Education and Empowerment Chair (Horse Staff)." },
+  { name: "Chloe Han", role: "Co-Lead", pronouns: "she/her", bio: "2025-26 Education and Empowerment Chair (Horse Staff)." },
+  { name: "Troy Tian", role: "Webmaster", pronouns: "he/him", bio: "Created this website!" }
 ];
 
 const MEDIA = [
