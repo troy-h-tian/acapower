@@ -155,7 +155,7 @@ function renderMedia() {
     const embed = item.embedUrl? `<iframe title="${safeTitle}" src="${escapeAttr(item.embedUrl)}" allowfullscreen loading="lazy"></iframe>`
       : `<div class="list-item">
            <h4>${safeTitle}</h4>
-           <p class="muted">Embed unavailable — use the link below.</p>
+           <p class="muted">Embed unavailable — use the link above.</p>
          </div>`;
 
     const link = item.linkUrl? `<a class="btn" href="${escapeAttr(item.linkUrl)}" target="_blank" rel="noopener">Open</a>`
